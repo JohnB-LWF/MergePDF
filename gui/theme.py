@@ -49,12 +49,14 @@ def apply_theme() -> None:
                 color: {THEME["accent"]};
                 font-size: 1.8rem;
                 margin: 0;
+                text-align: center;
             }}
 
             .soc-header-subtitle {{
                 color: {THEME["text_secondary"]};
                 margin-top: 0.25rem;
                 margin-bottom: 0;
+                text-align: center;
             }}
 
             .soc-console {{
