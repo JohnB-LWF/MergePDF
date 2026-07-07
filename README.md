@@ -188,4 +188,4 @@ The script exits with a non-zero status (`exit code 1`) for failures such as:
 
 ## License
 
-Add your preferred license (for example, MIT) in a `LICENSE` file.
+This project is licensed under the MIT License.
