@@ -2,7 +2,18 @@
 
 from __future__ import annotations
 
+import sys
+from pathlib import Path
+
 import streamlit as st
+
+# Streamlit Cloud can execute this file as a script, where project-root
+# packages are not automatically importable. Ensure the repo root is on sys.path.
+if __package__ in (None, ""):
+    project_root = Path(__file__).resolve().parents[1]
+    project_root_str = str(project_root)
+    if project_root_str not in sys.path:
+        sys.path.insert(0, project_root_str)
 
 from gui.components import (
     render_download_button,
