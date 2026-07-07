@@ -2,6 +2,10 @@
 
 MergePDF is a modular PDF utility with both a CLI and a Streamlit GUI.
 
+## Use it Now
+
+You can use the app right now on the Streamlit website [here](https://mpdfapp.streamlit.app/)!
+
 ## Architecture
 
 ```text
