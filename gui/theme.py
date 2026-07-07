@@ -87,6 +87,25 @@ def apply_theme() -> None:
                 background: {THEME["panel"]};
                 border-radius: 0;
             }}
+
+            .soc-footer-links {{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 0.35rem;
+                margin-top: 0.5rem;
+            }}
+
+            .soc-footer-link {{
+                color: {THEME["text_secondary"]};
+                text-decoration: none;
+                text-align: center;
+            }}
+
+            .soc-footer-link:hover {{
+                color: {THEME["accent"]};
+                text-decoration: underline;
+            }}
         </style>
         """,
         unsafe_allow_html=True,

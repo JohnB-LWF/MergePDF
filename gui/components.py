@@ -83,8 +83,9 @@ def render_footer() -> None:
     """Render footer links."""
     st.markdown(
         """
-        <div style="color:#9AA0A6;margin-top:0.5rem;">
-            github.com/JohnB-LWF/MergePDF
+        <div class="soc-footer-links">
+            <a class="soc-footer-link" href="https://github.com/JohnB-LWF/MergePDF" target="_blank">github.com/JohnB-LWF/MergePDF</a>
+            <a class="soc-footer-link" href="https://johnbelcher.dev" target="_blank">johnbelcher.dev</a>
         </div>
         """,
         unsafe_allow_html=True,

@@ -29,7 +29,7 @@ def main() -> None:
     if "output_name" not in st.session_state:
         st.session_state.output_name = None
 
-    render_header("mergePDF()", "Quickly combine PDF pages and documents.")
+    render_header("mergePDF()", "Quickly combine multiple PDF documents")
     uploaded_files = render_file_uploader()
     render_uploaded_file_list([upload.name for upload in uploaded_files])
 
